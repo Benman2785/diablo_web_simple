@@ -27,13 +27,22 @@ const StartScreen: React.FC<{
 					Manage Saves
 				</div>
 			)}
+				F8 toggles 4:3 & stretched
 			<a
 				className="start-screen__manual-link"
-				href="/diablo_web_simple/manual.pdf"
+				href="/diablo_web_simple/manual_en.pdf"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				View Manual
+				view manual
+			</a>
+			<a
+				className="start-screen__manual-link"
+				href="/diablo_web_simple/manual_de.pdf"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				zeige Handbuch
 			</a>
 		</div>
 	);
