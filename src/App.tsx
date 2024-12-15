@@ -66,7 +66,7 @@ const App: React.FC = () => {
 
 	useEffect(() => {
 		const handleKeyDown = (event: KeyboardEvent) => {
-			if (event.key === "F9") {
+			if (event.key === "F8") {
 				setIsWide((prevIsWide) => !prevIsWide);
 			}
 		};
